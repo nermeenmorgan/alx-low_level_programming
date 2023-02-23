@@ -5,6 +5,7 @@
 void times_table(void)
 {
 	int x, y, k;
+
 	for (x = 0; x < 10; x++)
 	{
 		for (y = 0; y < 10; y++)
@@ -27,6 +28,6 @@ void times_table(void)
 				_putchar((k % 10) + '0');
 			}
 		}
-		_putchar('\n');  
+		_putchar('\n');
 	}
 }
